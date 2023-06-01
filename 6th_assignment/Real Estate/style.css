@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+body{
+    background-color: #f6f8fa;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+            /* BUTTON  */
+button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(./assets/Photos/mainBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+nav ul li a {
+    font-size: 18px;
+    color: #fff;
+}
+nav img{
+    scale: 0.6;
+}
+hr{
+    margin: 0px 110px;
+    /* color: white; */
+}
+                            /* header discription  */
+header div{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin: 85px 0 0 150px ;
+}
+header div h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+header div p{
+    font-size: 18px;
+    width: 24vw;
+    font-weight: 500;
+    margin:10px 0;
+
+}
+header button{
+    width: 160px;
+    height: 40px;
+    margin-top: 25px;
+    
+}
+
+
+                    /* logo box design  */
+ .logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 40px;
+    border-radius: 20px;
+    height: 185px;
+    position: relative;
+    bottom: 100px;
+ }
+                                            /* realstate design  */
+                                /* heading of real states  */
+.cardwrapsection h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+}
+                    /* card wraper design  */
+.cardwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+}
+                        /* every card design  */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    position: relative;
+    gap: 20px;
+   
+
+}        
+                    /* card img design      */
+.card img{
+    height: 400px;
+    width: 370px;
+    border-radius: 25px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-radius: 25px;
+    border: transparent;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 120px rgba(58, 86, 78, 0.2);
+    height: 130px;
+    /* width: 310px; */
+    padding: 30px ;
+    position: relative;
+    top: -80px;
+}
+.details div span{
+    font-size: 25px;
+    font-weight: 800;
+   
+}
+.details div p{
+    color: #6663e9;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 12px;
+}
+.details button{
+    height: 50px;
+    width: 110px;
+    font-size: 16px;
+}
+                            /* adding marging to indivisual cards  */
+.cardwrap .card:nth-child(1){
+    margin-top: 50px;
+
+}
+.cardwrap .card:nth-child(2){
+    margin-top: 100px;
+
+}
+.cardwrap .card:nth-child(3){
+    margin-top: 150px;
+
+}
+.cardwrap .card:nth-child(4){
+    margin-top: 150px;
+
+}
+.cardwrap .card:nth-child(5){
+    margin-top: 100px;
+
+}
+.cardwrap .card:nth-child(6){
+    margin-top: 50px;
+
+}
+.cardwrap .card:nth-child(7){
+    margin-top: 50px;
+
+}
+.cardwrap .card:nth-child(8){
+    margin-top: 100px;
+
+}
+.cardwrap .card:nth-child(9){
+    margin-top: 150px;
+
+}
+                                    /* feature section design  */
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}                                    
+.feature div{
+    width: 50%;
+}
+.feature button{
+    font-weight: 700;
+}
+                                /* first feature section  */
+.first-feature div:first-child img:first-child{
+    position: relative;
+    height: 420px;
+    width: 406px;
+    border-radius: 50px;
+    left: 125px;
+    top: -60px;
+}
+.first-feature div:first-child img:last-child{
+    position: absolute;
+    height: 456px;
+    width: 717px;
+    z-index: -1;
+    left: -59px;
+}
+.feature h1{
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+.feature p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #585c65;
+    width: 80%;
+}
+.feature h1,.feature p{
+    margin-bottom: 30px;
+}
+                        /* designing of 2nd feature  */
+.second-feature{
+    margin-top: 10%;
+}                        
+.second-feature div:first-child{
+    padding: 0 55px;
+}
+.second-feature div:last-child img:first-child{
+    position: relative;
+    height: 420px;
+    width: 402px;
+    border-radius: 50px;
+    right: -225px;
+    top: -70px;
+}        
+.second-feature div:last-child img:last-child{
+    position: absolute;
+    height: 456px;
+    width: 722px;
+    z-index: -1;
+    right: 0;
+    
+}               
+
+                                            /* designing of newsletter section  */
+.newsletter{
+    background-color:#6663e9;
+    border: transparent;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 80px;
+    padding: 70px 100px;
+}       
+.newsletter h1{
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}             
+.newsletter p{
+    width: 65%;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 23px;
+}        
+.newsletter .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}       
+.contact div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+    border-radius: 50px;
+    
+}       
+.contact input{
+    background: transparent;
+    border: none;
+    font-size: 16px;
+}  
+.contact button{
+    /* box-shadow: 0px 4px 60px rgba(34,233,12,0.96); */
+      box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    color: #6663e9;
+    background-color: #ffffff;
+    height: 61px;
+    padding: 0 50px;
+    text-align: center;
+
+}
+                                        /* design of footer section  */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 90px 100px;
+
+}   
+.ftr-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}      
+img[alt="ftr-logo"]{
+    /* height: 50px; */
+    width:150px ;
+    margin-bottom: 10px;
+}
+.ftr-left div img{
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+}
+.ftr-left p{
+    font-size: 20px;
+    font-weight: 400;
+    width: 300px;
+}
+                        /* footer right section design  */
+
+.ftr-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 115px;
+
+}        
+.ftr-right div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* font-size: 16px;
+    font-weight: 500; */
+}    
+.ftr-right div ul li:first-child{
+    font-size: 20px;
+    font-weight: 700;
+}                
+.ftr-right div li a{
+    color: black;
+}
+
